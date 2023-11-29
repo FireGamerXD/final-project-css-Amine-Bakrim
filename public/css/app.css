@@ -11868,22 +11868,65 @@ body {
   margin: 0;
   padding: 0;
 }
-
-nav {
-  height: 15vh;
+body .img_s2_2 {
+  background-image: url(../../public/img/slider.jpg) !important;
+  background-size: cover !important;
+  height: 76vh !important;
+  background-position: center;
+}
+body .button_s2 {
+  background: blue;
+  top: 50%;
+  left: 3%;
+  width: 4vw;
+  height: 7vh;
+  border: 2px solid blue;
+  border-radius: 80%;
+}
+body .button_s2_2 {
+  background: blue;
+  top: 50%;
+  right: 3%;
+  width: 4vw;
+  height: 7vh;
+  border: 2px solid blue;
+  border-radius: 80%;
+}
+body .medical {
+  color: blue;
+}
+body .text_carousel1 {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+body .button_carousel {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+body nav {
   font-size: 17px;
 }
-nav .text_s1_style {
+body nav .text_s1_style {
   font-family: Rubik-VariableFont_wght;
 }
-nav .div_one_nav {
+body nav .div_one_nav {
   width: 90vw !important;
 }
-nav .dropdown_s1 {
+body nav .dropdown_s1 {
   font-size: 17px;
 }
-nav .img_s1 {
+body nav .img_s1 {
   width: 30vw !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=app.css.map */
