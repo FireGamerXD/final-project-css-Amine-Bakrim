@@ -7,7 +7,7 @@ body
         height: 76vh !important
         background-position: center
     .button_s2
-        background: blue 
+        background: blue
         top: 50%
         left: 3%
         width: 4vw
@@ -15,7 +15,7 @@ body
         border: 2px solid blue
         border-radius: 80%
     .button_s2_2
-        background: blue 
+        background: blue
         top: 50%
         right: 3%
         width: 4vw
@@ -45,14 +45,229 @@ body
             font-size: 17px
         .img_s1
             width: 30vw !important
+    .text_s3
+        h1
+            width: 50vw
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 15px
+        gap: 1vh
+        p
+            width: 50vw
+        .lorem_s3
+            display: flex
+            flex-direction: column
+            align-items: center
+            padding: 0px
+        .family_s3
+            display: flex
+            flex-direction: column
+            align-items: center
+            
+    .div1-sec2
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+        position: relative
+        &::before
+            content: ""
+            position: absolute
+            top: 22vh
+            left: 65vw
+            width: 8vw
+            border-bottom: dotted dodgerblue 2px
+        .para2
+            width: 50%
+            text-align: center
+    .div2-sec2
+        display: flex
+        align-items: center
+        justify-content: space-evenly
+        width: 100%
+        position: relative
+        &::before
+            content: ""
+            position: absolute
+            top: 4vh
+            left: 30vw
+            width: 8vw
+            border-bottom: dotted dodgerblue 2px
+
+    .child-div
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+        width: 50%
+
+        .icon
+            display: flex
+            align-items: center
+            justify-content: center
+            color: blue
+            border: 1px solid grey
+            border-radius: 50%
+            padding: 20px
+            font-size: 2rem
+    .para-child
+        width: 60%
+        text-align: center
+
+    .text_s3_p2
+        display: flex
+        width: 60vw
+        justify-content: space-around
+        flex-direction: row
+        font-size: 5px
+        .font-size_s3
+            padding: 5px
+            font-size: 25px
+        .test1
+            padding: 8px
+.sec4
+    .image_sec4
+        background-image: url(../../public/img/fun-bg.jpg) !important
+        background-size: cover !important
+        height: 30vh !important
+        background-position: center
+        display: flex
+        justify-content: space-around
+        .home_text
+            width: 15vw
+            color: white
+            display: flex
+            align-items: center
+            justify-content: space-between
+            h3
+                display: flex
+                flex-direction: column
+            p
+                display: flex
+                flex-direction: column
+            .color_s4
+                width: 100vw
+                height: 100%
+                background: blue
+            .icon_s4
+                font-size: 50px
+                border: 2px solid white
+                border-radius: 80%
+                padding: 15px
+        .home_text_1
+            width: 20vw
+            display: flex
+            color: white
+            .icon_s4
+                font-size: 50px
+                border: 2px solid white
+                border-radius: 80%
+                padding: 15px
+.div1-sec5
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    position: relative
+    .heading2
+        align-items: center
+        display: flex
+        width: 40%
+        font-size: 40px
+    .para2
+        width: 50%
+        text-align: center
 
 @media (max-width: 426px )
-body
-    margin: 0
-    padding: 0
-    // .text_carousel1
-    //     display: flex
-    //     padding: 50px
-    //     // width: 100vw
-    //     height: 10vh
-
+    body
+        margin: 0
+        padding: 0
+        .text_carousel1
+            display: flex
+            padding: 50px
+            width: 100vw
+            height: 10vh
+        .div1-sec2
+            display: flex
+            align-items: center
+            .heading2
+                font-size: 20px
+                padding: 10px
+                width: 70vw
+                display: flex
+                flex-direction: column
+                align-items: center
+            .para2
+                width: 100vw
+        .div2-sec2
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: space-evenly
+            width: 100%
+            position: relative
+            &::before
+                display: none
+            .child-div
+                display: flex
+                align-items: center
+                justify-content: center
+                flex-direction: column
+                width: 100%
+                p
+                    width: 80%
+        .sec4
+            .image_sec4
+                background-image: url(../../public/img/fun-bg.jpg) !important
+                background-size: cover !important
+                height: 100vh !important
+                background-position: center
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: space-around
+                .home_text
+                    width: 10vw
+                    font-size: 15px
+                    color: white
+                    display: flex
+                    align-items: center
+                    flex-direction: column
+                    justify-content: space-between
+                    h3
+                        font-size: 20px
+                        display: flex
+                        align-items: center
+                    .icon_s4
+                        font-size: 30px
+                        border: 2px solid white
+                        border-radius: 80%
+                        padding: 15px
+                .home_text_1
+                    width: 10vw
+                    font-size: 15px
+                    color: white
+                    display: flex
+                    align-items: center
+                    flex-direction: column
+                    justify-content: space-between
+                    .icon_s4
+                        font-size: 35px
+                        border: 2px solid white
+                        border-radius: 80%
+                        padding: 15px
+        .div1-sec5
+            padding: 5px
+            display: flex
+            align-items: center
+            flex-direction: column
+            position: relative
+            .heading2
+                align-items: center
+                display: flex
+                width: 66%
+                font-size: 20px
+            .para2
+                width: 100%
+                text-align: center
