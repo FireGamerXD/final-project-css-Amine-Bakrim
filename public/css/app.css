@@ -12150,6 +12150,9 @@ body .text_s3_p2 .test1 {
   display: flex;
   flex-direction: row;
 }
+.bg_s7 .sec7_pics .s11 .generals11 .para11 {
+  width: 50vw !important;
+}
 
 @media (max-width: 426px) {
   body {
@@ -12336,6 +12339,13 @@ body .text_s3_p2 .test1 {
     justify-content: space-around;
     align-items: center;
     gap: 8px;
+  }
+  body .s11 .generals11 {
+    width: 100%;
+  }
+  body .s11 .generals11 .para11 {
+    align-items: center;
+    width: 80%;
   }
 }
 
