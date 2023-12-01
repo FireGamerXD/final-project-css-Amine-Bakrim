@@ -12180,10 +12180,42 @@ body .text_s3_p2 .test1 {
   width: 25vw;
 }
 
+.button_s14 {
+  display: flex;
+  padding: 20px;
+  width: 20vw;
+  text-align: center;
+}
+
+.b_input_s14 .b_and_i_s14 {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .fot_final {
+  width: 90%;
+}
+.container .form-control::placeholder {
+  color: white;
+}
+
 @media (max-width: 426px) {
   body {
     margin: 0;
     padding: 0;
+  }
+  body .but_carousel {
+    margin-top: 10px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  body .button_s2 {
+    width: 10vw;
+  }
+  body .button_s2_2 {
+    width: 10vw;
   }
   body .text_carousel1 {
     display: flex;
@@ -12402,6 +12434,27 @@ body .text_s3_p2 .test1 {
   }
   body .width_s13 {
     width: 100%;
+  }
+  body .sec14 input {
+    padding: 20px;
+    display: flex;
+  }
+  body .sec14 .button_s14 {
+    display: flex;
+    padding: 20px;
+    width: 60vw;
+    text-align: center;
+  }
+  body .b_input_s14 {
+    margin-left: 40px;
+    align-items: center;
+  }
+  body .b_input_s14 .b_and_i_s14 {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
   }
 }
 
