@@ -12172,6 +12172,14 @@ body .text_s3_p2 .test1 {
   width: 20%;
 }
 
+.s13_1 {
+  width: 15vw;
+}
+
+.s13_2 {
+  width: 25vw;
+}
+
 @media (max-width: 426px) {
   body {
     margin: 0;
@@ -12385,6 +12393,15 @@ body .text_s3_p2 .test1 {
   body .sec12 .image_sec12 .imgs_s12 img {
     cursor: pointer;
     width: 80%;
+  }
+  body .img00 {
+    width: 100%;
+  }
+  body .book_s13 {
+    width: 50%;
+  }
+  body .width_s13 {
+    width: 100%;
   }
 }
 
