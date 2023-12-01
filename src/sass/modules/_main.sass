@@ -1,6 +1,23 @@
 body
     margin: 0
     padding: 0
+
+    header
+        .nav-item
+            position: relative
+            &::after
+                content: ''
+                border-bottom: 2px solid blue
+                border-radius: 5px
+                width: 0
+                position: absolute
+                left: 0
+                top: 5vh
+                transition: .7s
+                margin-bottom: 20px
+            &:first-child, &:hover
+                &::after
+                    width: 90%
     .img_s2_2
         background-image: url(../../public/img/slider.jpg) !important
         background-size: cover !important

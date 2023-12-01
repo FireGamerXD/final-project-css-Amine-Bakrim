@@ -11868,6 +11868,23 @@ body {
   margin: 0;
   padding: 0;
 }
+body header .nav-item {
+  position: relative;
+}
+body header .nav-item::after {
+  content: "";
+  border-bottom: 2px solid blue;
+  border-radius: 5px;
+  width: 0;
+  position: absolute;
+  left: 0;
+  top: 5vh;
+  transition: 0.7s;
+  margin-bottom: 20px;
+}
+body header .nav-item:first-child::after, body header .nav-item:hover::after {
+  width: 90%;
+}
 body .img_s2_2 {
   background-image: url(../../public/img/slider.jpg) !important;
   background-size: cover !important;
