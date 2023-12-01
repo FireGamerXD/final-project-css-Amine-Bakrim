@@ -12330,6 +12330,13 @@ body .text_s3_p2 .test1 {
     flex-direction: column-reverse;
     border: 20px solid white;
   }
+  body .generalsec10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
