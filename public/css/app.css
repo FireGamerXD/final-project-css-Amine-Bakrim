@@ -12154,6 +12154,24 @@ body .text_s3_p2 .test1 {
   width: 50vw !important;
 }
 
+.sec12 .image_sec12 {
+  background-image: url(../../public/img/client-bg.jpg) !important;
+  background-size: cover !important;
+  height: 30vh !important;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+}
+.sec12 .image_sec12 .imgs_s12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec12 .image_sec12 .imgs_s12 img {
+  cursor: pointer;
+  width: 20%;
+}
+
 @media (max-width: 426px) {
   body {
     margin: 0;
@@ -12345,6 +12363,27 @@ body .text_s3_p2 .test1 {
   }
   body .s11 .generals11 .para11 {
     align-items: center;
+    width: 80%;
+  }
+  body .sec12 .image_sec12 {
+    background-image: url(../../public/img/client-bg.jpg) !important;
+    background-size: cover !important;
+    height: 30vh !important;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+  }
+  body .sec12 .image_sec12 .imgs_s12 {
+    display: flex;
+    flex-direction: column;
+  }
+  body .sec12 .image_sec12 .imgs_s12 .img_none_s9 {
+    display: none;
+  }
+  body .sec12 .image_sec12 .imgs_s12 img {
+    cursor: pointer;
     width: 80%;
   }
 }
